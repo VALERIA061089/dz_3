@@ -1,0 +1,161 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: #d0d1d3;
+    background: url(./images/10bd40f4ead41ef70bf717fc8e8f9699.jpg) no-repeat;
+    background-size: cover;
+   }
+
+   body {
+    margin: 0px;
+    padding: 0px;
+   }
+
+   main {
+    margin: 30px;
+   }
+
+   h1 {
+    color: beige;
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+   nav a {
+    color: rgb(242, 248, 249);
+    text-decoration: none;
+   }
+
+   nav a:hover {
+    background: gray;
+   }
+
+   .navigation {
+    list-style-image: url(./images/pin-column.svg)
+   }
+
+   footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+
+   footer .links {
+    margin-bottom: 10px;
+   }
+
+   footer .links > a {
+    color: #295f7b;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+
+   .copyright {
+    color: rgb(108, 117, 125);
+   }
+
+   .title_section {
+    margin-left: 55px;
+    padding-bottom: 0%;
+   }
+
+   article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+   }
+
+   article h2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+    }
+
+   article h2:hover {
+    color: #0085a1;
+    }
+ 
+    .article-meta {
+        color: rgb(134, 142, 150);
+        margin-bottom: 5px;
+    }
+
+    article img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .history_image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+       padding: 5px 5px;
+       border-radius: 8px;
+    }
+
+    label {
+        padding: 5px 5px;
+    }
+
+    .table {
+        display: grid;
+        grid-template-columns: 10% 35% auto auto;
+        grid-auto-flow: row;
+        text-align: center;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+      
+    .table-header,
+    .table-footer {
+        display: contents;
+    }
+      
+    .table__cell {
+        border: 1px solid black;
+    }
+      
+    .table-header__cell,
+    .table-footer__cell {
+        border: 2px solid black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+      
+    .cell-5-rows,
+    .cell-6-rows,
+    .cell-2-columns {
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .cell-2-columns {
+        grid-column: span 2;
+    }
+      
+    .cell-6-rows {
+        grid-row: span 6;
+    }
+      
+    .cell-5-rows {
+        grid-row: span 5;
+    }
